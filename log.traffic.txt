@@ -1,0 +1,44 @@
+/home/hwubl/environment/anaconda3/lib/python3.7/site-packages/torch/nn/_reduction.py:44: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+WARNING: You have a CUDA device, so you should probably run with --cuda
+tensor(0.0571)
+* number of parameters: 2085922
+begin training
+| end of epoch   1 | time: 1789.07s | train_loss 0.0229 | valid rse 5.6093 | valid rae 6.8080 | valid corr  0.7513
+| end of epoch   2 | time: 1775.57s | train_loss 0.0137 | valid rse 0.7391 | valid rae 0.7415 | valid corr  0.8183
+| end of epoch   3 | time: 1890.19s | train_loss 0.0128 | valid rse 0.8443 | valid rae 0.8841 | valid corr  0.8108
+| end of epoch   4 | time: 1856.31s | train_loss 0.0124 | valid rse 7.7621 | valid rae 9.5615 | valid corr  0.7310
+| end of epoch   5 | time: 1841.89s | train_loss 0.0121 | valid rse 0.7058 | valid rae 0.4942 | valid corr  0.8012
+test rse 0.7483 | test rae 0.5221 | test corr 0.7837
+| end of epoch   6 | time: 1841.40s | train_loss 0.0119 | valid rse 0.5810 | valid rae 0.3984 | valid corr  0.8365
+| end of epoch   7 | time: 1832.32s | train_loss 0.0119 | valid rse 1.8687 | valid rae 1.8349 | valid corr  0.7074
+-----------------------------------------------------------------------------------------
+Exiting from training early
+Traceback (most recent call last):
+  File "main.py", line 196, in <module>
+    test_acc, test_rae, test_corr  = evaluate(Data, Data.test[0], Data.test[1], model, evaluateL2, evaluateL1, args.batch_size);
+  File "main.py", line 25, in evaluate
+    output = model(X);
+  File "/home/hwubl/environment/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hwubl/projects/courses/comp5331/mWDN/models/mWDN.py", line 77, in forward
+    out = self.classifier(out)
+  File "/home/hwubl/environment/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hwubl/projects/courses/comp5331/mWDN/models/InceptionTime.py", line 66, in forward
+    x = self.inceptionblock(x)
+  File "/home/hwubl/environment/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hwubl/projects/courses/comp5331/mWDN/models/InceptionTime.py", line 52, in forward
+    x = self.inception[d](x)
+  File "/home/hwubl/environment/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hwubl/projects/courses/comp5331/mWDN/models/InceptionTime.py", line 32, in forward
+    x = self.concat([l(x) for l in self.convs] + [self.maxconvpool(input_tensor)])
+  File "/home/hwubl/projects/courses/comp5331/mWDN/models/InceptionTime.py", line 32, in <listcomp>
+    x = self.concat([l(x) for l in self.convs] + [self.maxconvpool(input_tensor)])
+  File "/home/hwubl/environment/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hwubl/environment/anaconda3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 257, in forward
+    self.padding, self.dilation, self.groups)
+KeyboardInterrupt
