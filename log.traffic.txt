@@ -78,4 +78,50 @@ test rse 2.0700 | test rae 2.1959 | test corr 0.7667
 | end of epoch  62 | time: 3435.83s | train_loss 0.0079 | valid rse 1.2865 | valid rae 1.3783 | valid corr  0.6961
 | end of epoch  63 | time: 3312.69s | train_loss 0.0079 | valid rse 1.0801 | valid rae 1.1340 | valid corr  0.7521
 | end of epoch  64 | time: 3314.05s | train_loss 0.0078 | valid rse 2.0690 | valid rae 2.3933 | valid corr  0.7858
-| end of epoch  65 | time: 3123.86s | train_loss 0.0078 | valid rse 1.1526 | valid rae 1.2417 | valid corr  0.7627
+| end of epoch  65 | time: 3123.86s | train_loss 0.0078 | valid rse 1.1526 | valid rae 1.2417 | valid corr  0.7627/home/hwubl/environment/anaconda3/lib/python3.7/site-packages/torch/nn/_reduction.py:44: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+
+test rse 1.2052 | test rae 1.2920 | test corr 0.7578
+| end of epoch  66 | time: 3079.72s | train_loss 0.0078 | valid rse 1.4932 | valid rae 1.6554 | valid corr  0.7445
+| end of epoch  67 | time: 2921.33s | train_loss 0.0078 | valid rse 0.9287 | valid rae 0.8801 | valid corr  0.7653
+| end of epoch  68 | time: 2907.96s | train_loss 0.0078 | valid rse 2.2554 | valid rae 2.3523 | valid corr  0.7756
+| end of epoch  69 | time: 2884.03s | train_loss 0.0078 | valid rse 0.9792 | valid rae 0.9829 | valid corr  0.7874
+| end of epoch  70 | time: 2906.09s | train_loss 0.0078 | valid rse 1.6595 | valid rae 1.8456 | valid corr  0.8076
+test rse 1.7401 | test rae 1.9392 | test corr 0.7893
+| end of epoch  71 | time: 3047.30s | train_loss 0.0077 | valid rse 3.2061 | valid rae 3.4611 | valid corr  0.7053
+| end of epoch  72 | time: 3038.19s | train_loss 0.0077 | valid rse 1.4155 | valid rae 1.4727 | valid corr  0.7683
+| end of epoch  73 | time: 2995.82s | train_loss 0.0076 | valid rse 2.1318 | valid rae 2.2820 | valid corr  0.7108
+| end of epoch  74 | time: 2999.00s | train_loss 0.0076 | valid rse 4.3346 | valid rae 4.9502 | valid corr  0.7517
+| end of epoch  75 | time: 2969.24s | train_loss 0.0076 | valid rse 1.4016 | valid rae 1.5790 | valid corr  0.7703
+test rse 1.4301 | test rae 1.6003 | test corr 0.7533
+| end of epoch  76 | time: 2954.57s | train_loss 0.0076 | valid rse 2.0825 | valid rae 2.4286 | valid corr  0.7660
+| end of epoch  77 | time: 2983.01s | train_loss 0.0076 | valid rse 1.2073 | valid rae 1.3435 | valid corr  0.7793
+| end of epoch  78 | time: 3006.51s | train_loss 0.0075 | valid rse 1.7819 | valid rae 1.8526 | valid corr  0.7395
+| end of epoch  79 | time: 3014.88s | train_loss 0.0075 | valid rse 1.5783 | valid rae 1.7639 | valid corr  0.7663
+| end of epoch  80 | time: 2987.01s | train_loss 0.0075 | valid rse 1.7435 | valid rae 1.8895 | valid corr  0.7596
+test rse 1.8219 | test rae 1.9735 | test corr 0.7502
+| end of epoch  81 | time: 2958.37s | train_loss 0.0074 | valid rse 1.2092 | valid rae 1.2463 | valid corr  0.7377
+| end of epoch  82 | time: 2965.52s | train_loss 0.0075 | valid rse 1.0797 | valid rae 1.1762 | valid corr  0.7757
+| end of epoch  83 | time: 2970.14s | train_loss 0.0075 | valid rse 1.3404 | valid rae 1.4987 | valid corr  0.7823
+| end of epoch  84 | time: 2963.81s | train_loss 0.0075 | valid rse 2.3955 | valid rae 2.4885 | valid corr  0.5824
+| end of epoch  85 | time: 2960.40s | train_loss 0.0074 | valid rse 1.1351 | valid rae 1.1857 | valid corr  0.7606
+test rse 1.1815 | test rae 1.2345 | test corr 0.7473
+| end of epoch  86 | time: 2958.65s | train_loss 0.0074 | valid rse 2.1806 | valid rae 2.5295 | valid corr  0.7094
+| end of epoch  87 | time: 2964.14s | train_loss 0.0074 | valid rse 0.9149 | valid rae 0.8992 | valid corr  0.7968
+| end of epoch  88 | time: 2958.03s | train_loss 0.0074 | valid rse 1.0254 | valid rae 1.0853 | valid corr  0.7562
+| end of epoch  89 | time: 2934.36s | train_loss 0.0074 | valid rse 1.1897 | valid rae 1.2889 | valid corr  0.7486
+| end of epoch  90 | time: 2942.32s | train_loss 0.0074 | valid rse 2.6840 | valid rae 3.1293 | valid corr  0.6985
+test rse 2.7342 | test rae 3.1961 | test corr 0.6726
+| end of epoch  91 | time: 2958.92s | train_loss 0.0073 | valid rse 0.8677 | valid rae 0.8270 | valid corr  0.7607
+| end of epoch  92 | time: 2970.39s | train_loss 0.0073 | valid rse 1.4724 | valid rae 1.5995 | valid corr  0.6701
+| end of epoch  93 | time: 2947.92s | train_loss 0.0073 | valid rse 1.7998 | valid rae 1.9767 | valid corr  0.7326
+| end of epoch  94 | time: 2873.28s | train_loss 0.0073 | valid rse 1.0004 | valid rae 1.1048 | valid corr  0.7503
+| end of epoch  95 | time: 2874.42s | train_loss 0.0074 | valid rse 1.2222 | valid rae 1.3249 | valid corr  0.7332
+test rse 1.2362 | test rae 1.3399 | test corr 0.7213
+| end of epoch  96 | time: 2876.68s | train_loss 0.0073 | valid rse 1.1882 | valid rae 1.2258 | valid corr  0.7636
+| end of epoch  97 | time: 2842.06s | train_loss 0.0073 | valid rse 1.3585 | valid rae 1.4071 | valid corr  0.7515
+| end of epoch  98 | time: 2649.52s | train_loss 0.0073 | valid rse 1.2173 | valid rae 1.3167 | valid corr  0.7757
+| end of epoch  99 | time: 2669.78s | train_loss 0.0072 | valid rse 1.9474 | valid rae 2.2915 | valid corr  0.7704
+| end of epoch 100 | time: 1663.55s | train_loss 0.0073 | valid rse 0.8470 | valid rae 0.8326 | valid corr  0.7817
+test rse 0.8800 | test rae 0.8685 | test corr 0.7687
+test rse 0.8800 | test rae 0.8685 | test corr 0.7687
