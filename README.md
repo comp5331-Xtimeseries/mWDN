@@ -6,12 +6,10 @@ Wang, J., Wang, Z., Li, J., & Wu, J. (2018, July). Multilevel wavelet decomposit
 
 Source repo: https://github.com/timeseriesAI/tsai
 
-### usage
+### Usage
 Training and testing on our dataset-of-interest:
 sh run.sh
 
 
 ### Environment 
-
-Python 3.6 and Pytorch 1.6.0
 conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
